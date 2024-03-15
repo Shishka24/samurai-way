@@ -1,3 +1,6 @@
+import MyPosts from "./MyPosts/MyPosts";
+import s from "./Profile.module.css";
+
 export const Profile = () => {
   return (
     <div className="content">
@@ -8,15 +11,7 @@ export const Profile = () => {
         />
       </div>
       <div>Ava + Desc</div>
-      <div>
-        My Posts
-        <div>New Posts</div>
-        <div>
-          <div>post 1</div>
-          <div>post 2 </div>
-          <div>post 3</div>
-        </div>
-      </div>
+      <MyPosts />
     </div>
   );
 };
