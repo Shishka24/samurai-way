@@ -28,3 +28,12 @@
   grid-template-columns: 2fr 10fr;
   /* grid-gap: 10px; */
 }
+.app-wrapper-content {
+  .content {
+    grid-area: c;
+    background-color: rgb(118, 248, 205);
+  }
+  .content img {
+    max-width: 100%;
+  }
+}
